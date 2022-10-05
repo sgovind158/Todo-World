@@ -32,6 +32,7 @@ To Do is a task management app to help you stay organized and manage your day-to
 <img src="https://github.com/sgovind158/Todo-World/blob/main/readmeImg/responsive1Img.png?raw=true">
 
 
+# Connet with me 
 <p align="left">
     <a href="https://www.linkedin.com/in/govind-sahu-4618881b2/">
         <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="https://www.linkedin.com/in/govind-sahu-4618881b2/" />
@@ -51,4 +52,7 @@ To Do is a task management app to help you stay organized and manage your day-to
 
    
 </p>
+
+# Show your support 
+Give a ⭐️ if you like this project!
 
