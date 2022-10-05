@@ -2,7 +2,8 @@
 To Do is a task management app to help you stay organized and manage your day-to-day. You can use Todo-World App  To Do to make shopping lists or task and this is fully responsive todo app 
 
 # Live Link 
-<a href="https://todoworld.netlify.app/">
+<a href="https://todoworld.netlify.app/"></a>
+https://todoworld.netlify.app/
 
 # Tech Stack 
 - React 
