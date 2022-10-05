@@ -6,15 +6,15 @@ import "./styles.css"
 interface props {
   todos: Todo[];
   setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
-  completedTodos :Todo[];
-  setCompletedTodos:React.Dispatch<React.SetStateAction<Todo[]>>;
+ 
 }
 const TodosList:React.FC<props> = ({todos ,setTodos}) => {
   return (
 
     <div className='container'>
+      
     <div className="todos_div">
-      <span>Active Tasks</span>
+    {/* <span className="todos_heading1"> Tasks</span> */}
       
       {/* map here */}
             {todos?.map((todo) => (
@@ -28,21 +28,6 @@ const TodosList:React.FC<props> = ({todos ,setTodos}) => {
     </div>
 
 
-{/* complete todos  */}
-    <div className='todos_div remove' >
-
-    <span>Completed  Tasks</span>
-      
-      {/* map here */}
-            {todos?.map((todo) => (
-        <SingleTodo
-          todos={todos}
-          todo={todo}
-          key={todo.id}
-          setTodos={setTodos}
-        />
-      ))}
-    </div>
 
     </div>
   );
