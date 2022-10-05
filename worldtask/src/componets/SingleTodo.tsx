@@ -51,9 +51,9 @@ let editTodosObj = todos.map((todoObj)=> todoObj.id === id ?{...todoObj,todo : e
           ref={inputRef}
         />
   ) : todo.isDone ?(
-      <s className='todos_single_text'>{todo.todo}</s>
+      <s   className='todos_single_text todos_heading'>{todo.todo}</s>
      ) : (
-<span className='todos_single_text'>{todo.todo}</span>
+<span className='todos_single_text todos_heading'>{todo.todo}</span>
      )}
       
       <div>
