@@ -35,3 +35,73 @@
   transition: 0.2s all;
   box-shadow: 0 0 10px black;
   }
+
+  .input_submit:hover {
+    background-color: #388ae2;
+  }
+
+  .input_submit:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+  }
+  
+
+  
+.todos_div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+
+
+  .todos_single {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  border: 2px solid black;
+
+  }
+  .todos_single_text {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .todos_single_text:focus {
+    outline: none;
+  }
+  
+  .icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  /* for 1200 size  */
+  @media (max-width: 1200px) {
+    .todos_single {
+      width: 40%;
+      border: 2px solid red;
+    }
+  }
+
+
+  
+/* for small size  */
+@media (max-width: 700px) {
+  .input {
+    width: 95%;
+  }
+  .todos_div {
+    width: 95%;
+  }
+  .todos_single {
+    width: 100%;
+  }
+}

@@ -5,7 +5,7 @@ import InputField from './componets/InputField';
 import { Todo } from './componets/models/model';
 import TodosList from './componets/TodosList';
 
-function App() {
+const  App:React.FC=()=> {
 
   const [todo,setTodo] = useState<string>("")
 
