@@ -5,6 +5,9 @@ To Do is a task management app to help you stay organized and manage your day-to
 <a href="https://todoworld.netlify.app/"></a>
 https://todoworld.netlify.app/
 
+# Youtube Link 
+https://www.youtube.com/watch?v=Kj7rmQ-WaR8&list=PLZQiN5xJpq1W5aB0Bw0mfkM6jniF7KtwL&index=4&t=59s
+
 # Tech Stack 
 - React 
 - TypeScript
